@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Roboto;
+    font-weight: bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: normal;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@mixin headers {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 90px;
+    @include headers;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 57px;
+    @include headers;
+}
+
+@media screen and (max-width: 414px) {
+    h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    
+    h2 {
+        font-size: 18px;
+        line-height: 27px;
+    }   
+}
