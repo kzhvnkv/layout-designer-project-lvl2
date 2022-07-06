@@ -1,44 +1,118 @@
-@font-face {
-    font-family: Roboto;
-    font-weight: bold;
-    src: url(../fonts/Roboto-Bold.ttf);
+@import "variables.scss";
+@import "general.scss";
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
 }
 
-@font-face {
-    font-family: Roboto;
-    font-weight: normal;
-    src: url(../fonts/Roboto-Regular.ttf);
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
-@mixin headers {
-    font-weight: bold;
-    text-transform: uppercase;
+.header::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+    z-index: -10;
+ }
+
+ .header-menu {
+    @include flex-center;
+    justify-content: space-between;
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    text-transform: uppercase
+ }
+
+ .menu, .logo, .menu-items {
+    @include flex-center;
+ }
+
+ .logo-title {
+     margin-left: 16px;
+ }
+
+ .menu-item {
+     margin-right: 24px;
+ }
+
+ .search-input {
+    min-width: 228px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    color: $grey;
+    background-color: $dark;
+ }
+
+ .header-banner {
+    @include flex-column;
+     align-items: center;
+     padding-top: 200px;
+     padding-bottom: 200px;
+ }
+
+ .header-banner * {
+     margin: 0;
+ }
+
+.header-banner-text {
+    margin-top: 31px;
+    margin-bottom: 17px;
 }
 
-body {
-    font-family: Roboto, sans-serif;
+.header-banner-form {
+    display: grid;
+    grid-template-areas: "col-1 col-2" "col-3 col-3";
+    grid-gap: 24px;
+    max-width: 570px;
 }
 
-h1 {
-    font-size: 60px;
-    line-height: 90px;
-    @include headers;
+.col-1 {
+    grid-area: col-1;
 }
 
-h2 {
-    font-size: 38px;
-    line-height: 57px;
-    @include headers;
+.col-2 {
+    grid-area: col-2;
 }
 
-@media screen and (max-width: 414px) {
-    h1 {
-        font-size: 30px;
-        line-height: 45px;
+.col-3 {
+    grid-area: col-3;
+}
+
+.header-banner-input {
+    min-width: 270px;
+    min-height: 50px;
+    padding-left: 20px;
+    // margin-bottom: 1rem;
+    border: 2px solid $grey;
+    border-radius: 3px;
+    background: none;
+    color: $white;
+}
+
+.header-banner-btn {
+    min-height: 57px;
+    padding: 20px 30px;
+    cursor: pointer;
+    background-color: $green;
+    color: $white;
+    border: none;
+    border-radius: 5px;    
+}
+
+@media screen and (max-width: 1239px) {
+    .header-menu, .menu {
+        flex-direction: column;
     }
-    
-    h2 {
-        font-size: 18px;
-        line-height: 27px;
-    }   
 }
