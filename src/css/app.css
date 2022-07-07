@@ -35,6 +35,12 @@ body {
   color: #FFFFFF;
 }
 
+.btn {
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
 h1 {
   font-size: 60px;
   line-height: 90px;
@@ -64,8 +70,8 @@ ul {
   }
   .container {
     max-width: 100%;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 .header::before {
@@ -88,8 +94,11 @@ ul {
   justify-content: space-between;
   position: absolute;
   top: 25px;
+  left: 0;
   width: 100%;
   text-transform: uppercase;
+  font-size: 11px;
+  line-height: 13px;
 }
 
 .menu, .logo, .menu-items {
@@ -129,6 +138,7 @@ ul {
 .header-banner-text {
   margin-top: 31px;
   margin-bottom: 17px;
+  line-height: 24px;
 }
 
 .header-banner-form {
@@ -158,20 +168,57 @@ ul {
   border-radius: 3px;
   background: none;
   color: #FFFFFF;
+  box-sizing: border-box;
 }
 
 .header-banner-btn {
   min-height: 57px;
   padding: 20px 30px;
-  cursor: pointer;
   background-color: #34C176;
   color: #FFFFFF;
   border: none;
-  border-radius: 15px;
 }
 
 @media screen and (max-width: 1239px) {
   .header-menu, .menu {
     flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-menu {
+    width: calc(100% - 40px);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .menu-items {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  .menu-item {
+    margin-bottom: 3px;
+  }
+  .search {
+    align-self: stretch;
+  }
+  .search-input {
+    width: calc(100% - 20px);
+  }
+  .header-banner {
+    padding-top: 250px;
+  }
+  .header-banner h1 {
+    text-align: center;
+  }
+  .header-banner-text {
+    margin-top: 16px;
+    text-align: center;
+  }
+  .header-banner-form {
+    grid-template-areas: "col-1 col-1" "col-2 col-2" "col-3 col-3";
+    max-width: 100%;
+    width: 100%;
   }
 }
+/*# sourceMappingURL=app.css.map */
