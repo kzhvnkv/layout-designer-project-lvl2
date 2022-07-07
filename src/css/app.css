@@ -167,7 +167,7 @@ ul {
   background-color: #34C176;
   color: #FFFFFF;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 @media screen and (max-width: 1239px) {
@@ -175,5 +175,3 @@ ul {
     flex-direction: column;
   }
 }
-
-/*# sourceMappingURL=app.css.map */
