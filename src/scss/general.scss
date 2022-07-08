@@ -10,6 +10,11 @@
     src: url(../fonts/Roboto-Regular.ttf);
 }
 
+@mixin headers {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 body {
     font-family: Roboto, sans-serif;
     color: $white;
@@ -24,11 +29,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-}
-
-@mixin headers {
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
 .link {
@@ -58,6 +58,11 @@ h2 {
     font-size: 38px;
     line-height: 57px;
     @include headers;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 ul {

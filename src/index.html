@@ -10,9 +10,9 @@
 <body>
     <header class="section header" id="page-description">
         <div class="container header-container">
-            <div class="header-menu">
-                <nav class="menu">
-                    <a class="logo link link-active" href="#">
+            <div class="header-top top">
+                <nav class="top-menu menu">
+                    <a class="menu-logo logo link link-active" href="#">
                         <img class="logo-img" src="images/logo.svg" width="24" height="24" alt="Music Box">
                         <div class="logo-title">Music box</div>
                     </a>
@@ -23,24 +23,60 @@
                         <li class="menu-item"><a class="menu-link link" href="#" alt="Контакты">Контакты</a></li>
                     </ul>
                 </nav>
-                <div class="search">
+                <div class="top-search search">
                     <form class="search-form">
                         <input class="search-input" type="text" placeholder="ПОИСК…">
                     </form>
                 </div>
             </div>
-            <div class="header-banner">
+            <div class="header-banner banner">
                 <h1>Онлайн Музыка где угодно</h1>
                 <h2>Без ограничений</h2>
-                <p class="header-banner-text">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
-                <form class="header-banner-form">
-                    <input class="header-banner-input col-1" value="Имя" type="text">
-                    <input class="header-banner-input col-2" value="Email" type="email">
-                    <button class="header-banner-btn btn col-3" type="submit">Получить доступ</button>
+                <p class="banner-text">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+                <form class="banner-form">
+                    <input class="banner-input col-1" value="Имя" type="text">
+                    <input class="banner-input col-2" value="Email" type="email">
+                    <button class="banner-btn btn btn-green col-3" type="submit">Получить доступ</button>
                 </form>
 
             </div>
         </div>
     </header>
+
+    <main class="section main" id="page-pricing">
+        <div class="container main-container">
+            <h2 class="main-title">
+                Формы подписки
+            </h2>
+            <ul class="main-items pricing">
+                <li class="pricing-item bg-free">
+                    <h3 class="pricing-title">Бесплатная</h3>
+                    <p class="pricing-value">
+                        <span class="pricing-value-count">0</span>
+                        <span class="pricing-value-currency">руб.</span></p>
+                    <a class= "pricing-link btn btn-transparent" href="#">Оформить</a>
+                    <p class="pricing-footer">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</p>
+                </li>
+                <li class="pricing-item bg-standart">
+                    <h3 class="pricing-title">Стандартная</h3>
+                    <p class="pricing-value">
+                        <span class="pricing-value-count">250</span>
+                        <span class="pricing-value-currency">руб.</span></p>
+                    <a class= "pricing-link btn btn-transparent" href="#">Оформить</a>
+                    <p class="pricing-footer">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</p>
+                </li>
+                <li class="pricing-item bg-premium">
+                    <h3 class="pricing-title">Премиум</h3>
+                    <p class="pricing-value">
+                        <span class="pricing-value-count">500</span>
+                        <span class="pricing-value-currency">руб.</span></p>
+                    <a class= "pricing-link btn btn-transparent" href="#">Оформить</a>
+                    <p class="pricing-footer">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в высоком качестве</p>
+                </li>
+            </ul>
+            <div class="main-disclaimer">На всех тарифах возможно прослушивание музыки с мобильных устройств. На премиум тарифе вы можете скачать все композиции на ваше устройство и слушать музыку без подключения к интернету</div>
+        </div>
+    </main>
+
 </body>
 </html>
