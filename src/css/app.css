@@ -172,10 +172,19 @@ ul {
 .btn-news {
   width: max-content;
   padding: 16px 30px;
-  font-size: 13px;
+  font-size: 12.8px;
   color: #CACACA;
   line-height: 1.5;
   border: 1px solid #CACACA;
+}
+.btn-brown {
+  width: max-content;
+  border-radius: 32px;
+  padding: 16px 40px;
+  font-size: 12.8px;
+  background-color: #95390C;
+  color: #CACACA;
+  text-transform: none;
 }
 
 .menu-items {
@@ -307,6 +316,7 @@ ul {
 
 .news-item {
   display: flex;
+  margin-bottom: 65px;
 }
 .news-item-reverse {
   flex-direction: row-reverse;
@@ -317,7 +327,6 @@ ul {
 .news-item-col {
   display: flex;
   flex-direction: column;
-  margin-bottom: 65px;
   color: #CACACA;
   line-height: 1.5;
 }
@@ -345,6 +354,32 @@ ul {
   margin-right: 16px;
   text-transform: uppercase;
   color: #F89202;
+}
+.news-item:last-child {
+  margin-bottom: 0;
+}
+
+.app {
+  background-color: #08020D;
+  padding-top: 100px;
+  margin-bottom: 100px;
+  line-height: 1.5;
+}
+.app-title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+.app-content {
+  display: flex;
+  color: #CACACA;
+}
+.app-col {
+  width: 50%;
+}
+.app-center {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1239px) {
@@ -396,12 +431,10 @@ ul {
   }
   .news-item {
     flex-direction: column;
+    margin-bottom: 50px;
   }
   .news-item-reverse {
     flex-direction: column;
-  }
-  .news-item-col {
-    margin-bottom: 50px;
   }
   .news-item-left {
     margin-right: 0;
@@ -410,6 +443,12 @@ ul {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 16px;
+  }
+  .app-content {
+    flex-direction: column-reverse;
+  }
+  .app-col {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=app.css.map */
