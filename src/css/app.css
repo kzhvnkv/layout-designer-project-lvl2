@@ -457,6 +457,38 @@ ul {
   margin: 0;
 }
 
+/* ARTIST DISCOGRAPHY */
+.discography {
+  background-color: #08020D;
+  padding-top: 100px;
+}
+.discography-title {
+  margin: 0;
+  margin-bottom: 48px;
+}
+.discography-content {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.album-title {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.album-cover {
+  margin-bottom: 18px;
+}
+.album-date {
+  color: #E0E0E0;
+}
+.album-info * {
+  margin: 0;
+}
+
 /* FOOTER SECTION */
 .footer::before {
   content: "";
@@ -603,6 +635,13 @@ ul {
   .tracks-content {
     display: flex;
     flex-direction: column;
+  }
+  .album {
+    width: 137px;
+  }
+  .album-cover {
+    width: 137px;
+    height: 137px;
   }
 }
 /*# sourceMappingURL=app.css.map */

@@ -409,6 +409,47 @@
     }
 }
 
+/* ARTIST DISCOGRAPHY */
+.discography {
+    background-color: $black;
+    padding-top: 100px;
+
+    &-title {
+        margin: 0;
+        margin-bottom: 48px;
+    }
+
+    &-content {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 50px;
+        row-gap: 25px;
+    }
+}
+
+.album {
+    &-title {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    &-cover {
+        margin-bottom: 18px;
+    }
+
+    &-date {
+        color: $light-grey;
+    }
+
+    &-info {
+        * {
+            margin: 0;
+        }
+    }
+}
+
 
 /* FOOTER SECTION */
 
@@ -606,6 +647,15 @@
             display: flex;
             flex-direction: column;
            
+        }
+    }
+
+    .album {
+        width: 137px;
+   
+        &-cover {
+            width: 137px;
+            height: 137px;
         }
     }
 }
