@@ -411,6 +411,52 @@ ul {
   justify-content: center;
 }
 
+/* ARTIST POPULAR TRACKS */
+.tracks {
+  background-color: #08020D;
+  padding-top: 100px;
+}
+.tracks-content {
+  display: grid;
+  grid-template-areas: "track-1 track-2" "track-3 track-4" "track-5 track-6";
+  column-gap: 50px;
+  row-gap: 25px;
+}
+.tracks-title {
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.track {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.track-cover {
+  display: block;
+  width: 55px;
+  height: 55px;
+}
+.track-title {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: bold;
+}
+.track-artist, .track-time {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  color: #E0E0E0;
+}
+.track-time {
+  margin-left: auto;
+}
+.track-info {
+  padding-left: 15px;
+}
+.track-info * {
+  margin: 0;
+}
+
 /* FOOTER SECTION */
 .footer::before {
   content: "";
@@ -549,6 +595,14 @@ ul {
   .footer-bottom-item {
     margin-bottom: 16px;
     line-height: 1.5;
+  }
+  .tracks {
+    background-color: #08020D;
+    padding-top: 100px;
+  }
+  .tracks-content {
+    display: flex;
+    flex-direction: column;
   }
 }
 /*# sourceMappingURL=app.css.map */

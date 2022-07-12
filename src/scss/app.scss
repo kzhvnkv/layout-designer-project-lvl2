@@ -355,6 +355,61 @@
     }   
 }
 
+/* ARTIST POPULAR TRACKS */
+
+.tracks {
+    background-color: $black;
+    padding-top: 100px;
+
+    &-content {
+        display: grid;
+        grid-template-areas: "track-1 track-2" "track-3 track-4" "track-5 track-6";
+        column-gap: 50px;
+        row-gap: 25px;
+    }
+
+    &-title {
+        margin: 0;
+        margin-bottom: 48px;
+    }
+}
+
+.track {
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+    &-cover {
+        display: block;
+        width: 55px;
+        height: 55px;
+    }
+
+    &-title {
+        font-size: 12.8px;
+        line-height: 19.2px;
+        font-weight: bold;
+    }
+
+    &-artist, &-time {
+        font-size: 12.8px;
+        line-height: 19.2px;
+        color: $light-grey;
+    }
+
+    &-time {
+        margin-left: auto;
+    }
+
+    &-info {
+        padding-left: 15px;
+        * {
+            margin: 0;
+        }
+    }
+}
+
+
 /* FOOTER SECTION */
 
 .footer {
@@ -540,6 +595,17 @@
                 margin-bottom: 16px;
                 line-height: 1.5;
             }
+        }
+    }
+
+    .tracks {
+        background-color: $black;
+        padding-top: 100px;
+    
+        &-content {
+            display: flex;
+            flex-direction: column;
+           
         }
     }
 }
