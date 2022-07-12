@@ -47,9 +47,57 @@ ul {
 }
 
 .btn {
+    display: block;
+    padding: 20px 30px;
+    color: $white;
     cursor: pointer;
     text-transform: uppercase;
+    text-decoration: none;
     border-radius: 5px; 
+
+    &-green {
+        min-height: 57px;
+        background-color: $green;
+        border: none;
+    }
+
+    &-transparent {
+        border: 1px solid $white;
+        border-radius: 5px;
+    }
+
+    &-news {
+        width: max-content;
+        padding: 16px 30px;
+        font-size: 12.8px;
+        color: $grey;
+        line-height: 1.5;
+        border: 1px solid $grey;
+    }
+
+    &-brown {
+        width: max-content;
+        border-radius: 32px;
+        padding: 16px 40px;
+        font-size: 12.8px;
+        background-color: $brown;
+        color: $grey;
+        text-transform: none;
+
+        &-artist {
+            background-color: $brown;
+        }
+    }
+
+    &-artist {
+        width: 140px;
+        font-size: 12.8px;
+    }
+
+    &-purple {
+        background-color: $purple;
+    }
+
 }
 
 h1 {
