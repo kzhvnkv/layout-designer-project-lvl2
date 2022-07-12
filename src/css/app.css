@@ -397,14 +397,8 @@ ul {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   z-index: -10;
 }
-.footer::after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 113px;
-  left: 0;
-  width: 100%;
-  border-bottom: 2px solid #CACACA;
+.footer-line {
+  border-bottom: 1px solid #CACACA;
 }
 .footer-top {
   padding-top: 3rem;
@@ -503,6 +497,18 @@ ul {
   }
   .app-col {
     width: 100%;
+  }
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .footer-bottom-items {
+    flex-direction: column;
+  }
+  .footer-bottom-item {
+    margin-bottom: 16px;
+    line-height: 1.5;
   }
 }
 /*# sourceMappingURL=app.css.map */

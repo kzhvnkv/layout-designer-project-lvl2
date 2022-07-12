@@ -377,15 +377,8 @@
         z-index: -10;
     }
 
-    &::after {
-        content: "";
-        display: block;
-        position: absolute;
-        bottom: 113px;
-        left: 0;
-        width: 100%;
-        border-bottom: 2px solid $grey;
-
+    &-line {
+        border-bottom: 1px solid $grey;
     }
 
     &-top {
@@ -516,5 +509,24 @@
             width: 100%;
         }
 
+    }
+
+    .footer {
+        &-top {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        
+        &-bottom {
+            &-items {
+                flex-direction: column;
+            }
+            
+            &-item {
+                margin-bottom: 16px;
+                line-height: 1.5;
+            }
+        }
     }
 }
