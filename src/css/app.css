@@ -489,6 +489,43 @@ ul {
   margin: 0;
 }
 
+/* SIMILAR ARTISTS */
+.similar {
+  background-color: #08020D;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.similar-title {
+  margin: 0;
+  margin-bottom: 48px;
+}
+.similar-content {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.artist-title {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.artist-image {
+  margin-bottom: 18px;
+}
+.artist-fans {
+  color: #E0E0E0;
+}
+.artist-info {
+  text-align: center;
+  line-height: 1.5;
+}
+.artist-info * {
+  margin: 0;
+}
+
 /* FOOTER SECTION */
 .footer::before {
   content: "";
@@ -640,6 +677,13 @@ ul {
     width: 137px;
   }
   .album-cover {
+    width: 137px;
+    height: 137px;
+  }
+  .artist {
+    width: 137px;
+  }
+  .artist-image {
     width: 137px;
     height: 137px;
   }

@@ -450,6 +450,51 @@
     }
 }
 
+/* SIMILAR ARTISTS */
+
+.similar {
+    background-color: $black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    &-title {
+        margin: 0;
+        margin-bottom: 48px;
+    }
+    
+    &-content {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 50px;
+        row-gap: 25px;
+    }
+}
+
+.artist {
+    &-title {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: bold;
+        text-transform: capitalize;
+    } 
+
+    &-image {
+        margin-bottom: 18px;
+    }
+
+    &-fans {
+        color: $light-grey;
+    }
+
+    &-info {
+        text-align: center;
+        line-height: 1.5;
+        * {
+            margin: 0;
+        }
+    }
+}
+
 
 /* FOOTER SECTION */
 
@@ -654,6 +699,15 @@
         width: 137px;
    
         &-cover {
+            width: 137px;
+            height: 137px;
+        }
+    }
+
+    .artist {
+        width: 137px;
+   
+        &-image {
             width: 137px;
             height: 137px;
         }
