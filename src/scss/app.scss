@@ -566,6 +566,10 @@
 @media screen and (max-width: 1239px) {
     .header {
         padding-top: 250px;
+
+        &-top {
+            top: -225px;
+        }
     }
 
     .top {

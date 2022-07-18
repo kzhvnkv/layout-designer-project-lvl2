@@ -566,6 +566,9 @@ ul {
   .header {
     padding-top: 250px;
   }
+  .header-top {
+    top: -225px;
+  }
   .top {
     flex-direction: column;
     align-items: flex-start;
