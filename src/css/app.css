@@ -134,8 +134,6 @@ ul {
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
-}
-.header-container {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -144,7 +142,7 @@ ul {
 }
 .header-top {
   position: absolute;
-  top: 25px;
+  top: -175px;
   left: 0;
 }
 

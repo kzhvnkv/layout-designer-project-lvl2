@@ -38,10 +38,11 @@
     //     @include bg-position-size;
     //     z-index: -10;
     // }
+    padding-top: 200px;
+    padding-bottom: 200px;
         
     &-container {
-        padding-top: 200px;
-        padding-bottom: 200px;
+
     }
 
     &-artist {
@@ -53,7 +54,7 @@
 
     &-top {
         position: absolute;
-        top: 25px;
+        top: -175px;
         left: 0;
     }
 }
