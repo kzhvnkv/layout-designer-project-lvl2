@@ -38,6 +38,11 @@
     //     @include bg-position-size;
     //     z-index: -10;
     // }
+        
+    &-container {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
 
     &-artist {
         // &::before {
@@ -69,8 +74,6 @@
 .banner {
     @include flex-column;
     align-items: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
 
     * {
         margin: 0;
