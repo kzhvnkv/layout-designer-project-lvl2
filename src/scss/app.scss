@@ -564,6 +564,10 @@
 }
 
 @media screen and (max-width: 1239px) {
+    .header {
+        padding-top: 250px;
+    }
+
     .top {
         @include column-start;
         width: calc(100% - 40px);
@@ -595,7 +599,7 @@
     }
 
     .banner {
-        padding-top: 250px;
+        // padding-top: 250px;
 
         h1 {
             text-align: center;

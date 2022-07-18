@@ -563,6 +563,9 @@ ul {
 }
 
 @media screen and (max-width: 1239px) {
+  .header {
+    padding-top: 250px;
+  }
   .top {
     flex-direction: column;
     align-items: flex-start;
@@ -589,9 +592,6 @@ ul {
   }
   .search-input {
     width: calc(100% - 20px);
-  }
-  .banner {
-    padding-top: 250px;
   }
   .banner h1 {
     text-align: center;
