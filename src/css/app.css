@@ -131,14 +131,14 @@ ul {
 }
 /* HEADER SECTION */
 .header {
-  background-image: url("../images/banner.png");
+  background-image: url("/images/banner.png");
   background-position: center;
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
 }
 .header-artist {
-  background-image: url("../images/Morten Harket.png");
+  background-image: url("/images/Morten Harket.png");
 }
 .header-top {
   position: absolute;

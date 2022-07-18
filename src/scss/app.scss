@@ -24,7 +24,7 @@
 /* HEADER SECTION */
 
 .header {
-    background-image: url("../images/banner.png");
+    background-image: url("/images/banner.png");
     @include bg-position-size;
     // &::before{
     //     content: "";
@@ -49,7 +49,7 @@
         // &::before {
         //     background-image: url("../images/Morten Harket.png");
         // }
-        background-image: url("../images/Morten Harket.png");
+        background-image: url("/images/Morten Harket.png");
     }
 
     &-top {
