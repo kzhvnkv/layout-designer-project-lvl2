@@ -24,6 +24,7 @@
 /* HEADER SECTION */
 
 .header {
+    background-color: $black;
     background-image: url("/images/banner.png");
     @include bg-position-size;
     // &::before{

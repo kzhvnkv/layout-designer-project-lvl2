@@ -131,6 +131,7 @@ ul {
 }
 /* HEADER SECTION */
 .header {
+  background-color: #08020D;
   background-image: url("/images/banner.png");
   background-position: center;
   background-size: cover;
