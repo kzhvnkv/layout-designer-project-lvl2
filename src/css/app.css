@@ -162,9 +162,7 @@ ul {
 }
 
 .banner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 .banner * {
   margin: 0;
@@ -175,7 +173,7 @@ ul {
   line-height: 24px;
 }
 .banner-form {
-  display: grid;
+  display: inline-grid;
   grid-template-areas: "col-1 col-2" "col-3 col-3";
   grid-gap: 24px;
   width: 570px;

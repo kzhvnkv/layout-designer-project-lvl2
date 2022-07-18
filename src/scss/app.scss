@@ -74,8 +74,7 @@
 }
 
 .banner {
-    @include flex-column;
-    align-items: center;
+    text-align: center;
 
     * {
         margin: 0;
@@ -88,7 +87,7 @@
     }
     
     &-form {
-        display: grid;
+        display: inline-grid;
         grid-template-areas: "col-1 col-2" "col-3 col-3";
         grid-gap: 24px;
         width: 570px;
