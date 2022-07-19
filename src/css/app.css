@@ -176,7 +176,7 @@ ul {
   display: inline-grid;
   grid-template-areas: "col-1 col-2" "col-3 col-3";
   grid-gap: 24px;
-  width: 570px;
+  max-width: 570px;
 }
 .banner-input {
   min-width: 270px;
