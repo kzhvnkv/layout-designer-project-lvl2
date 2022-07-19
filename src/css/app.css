@@ -518,16 +518,8 @@ ul {
 }
 
 /* FOOTER SECTION */
-.footer::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-  z-index: -10;
 }
 .footer-line {
   border-bottom: 1px solid #CACACA;
