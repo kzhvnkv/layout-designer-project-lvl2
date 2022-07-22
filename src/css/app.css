@@ -288,12 +288,10 @@ ul {
   display: flex;
   gap: 50px;
   padding: 0;
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }
 .pricing-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 1rem;
@@ -303,20 +301,14 @@ ul {
   margin-bottom: 200px;
 }
 .pricing-value {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
   margin-top: 0;
   margin-bottom: 40px;
   line-height: 1em;
-}
-.pricing-value-count {
   font-size: 64px;
   line-height: 1em;
-  margin-right: 16px;
 }
-.pricing-value-currency {
+.pricing-value sup {
   font-size: 32px;
-  line-height: 1.5;
   text-transform: uppercase;
 }
 .pricing-link {
