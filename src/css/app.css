@@ -212,6 +212,7 @@ ul {
   grid-template-areas: "col-1 col-2" "col-3 col-3";
   grid-gap: 24px;
   max-width: 570px;
+  min-width: 570px;
 }
 .banner-input {
   min-width: 270px;
@@ -605,8 +606,7 @@ ul {
   }
   .banner-form {
     grid-template-areas: "col-1 col-1" "col-2 col-2" "col-3 col-3";
-    max-width: 100%;
-    width: 100%;
+    min-width: 100%;
   }
   .banner-artist {
     padding-top: 225px;
