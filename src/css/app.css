@@ -9,6 +9,7 @@
   src: url(../fonts/Roboto-Regular.ttf);
 }
 body {
+  position: relative;
   font-family: Roboto, sans-serif;
   color: #FFFFFF;
   margin: 0;
@@ -566,7 +567,7 @@ ul {
 
 @media screen and (max-width: 1239px) {
   .header {
-    padding-top: 250px;
+    padding-top: 200px;
   }
   .top {
     flex-direction: column;
