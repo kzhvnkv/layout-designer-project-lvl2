@@ -288,7 +288,7 @@ ul {
   display: flex;
   gap: 50px;
   padding: 0;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .pricing-item {
   text-align: center;
