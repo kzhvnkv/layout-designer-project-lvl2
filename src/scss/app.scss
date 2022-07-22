@@ -570,7 +570,7 @@
 
 @media screen and (max-width: 1239px) {
     .header {
-        padding-top: 200px;
+        
     }
     .top {
         @include column-start;
@@ -602,7 +602,7 @@
     }
 
     .banner {
-        // padding-top: 250px;
+        padding-top: 50px;
 
         h1 {
             text-align: center;
