@@ -21,28 +21,23 @@
     background-size: cover;    
 }
 
-/* HEADER SECTION */
 
-.header {
+/* UPSIDE SECTION */
+
+.upside {
     background-color: $black;
-    background-image: url("/images/banner.png");
-    @include bg-position-size;
-    padding-top: 200px;
-    padding-bottom: 200px;
-        
+
     &-container {
-
-    }
-
-    &-artist {
-        background-image: url("/images/Morten Harket.png");
+        position: relative;
     }
 
     &-top {
         position: absolute;
-        top: -175px;
+        top: 25px;
         left: 0;
+        z-index: 10;
     }
+
 }
 
 .top {
@@ -53,10 +48,58 @@
     font-size: 11px;
     line-height: 13px;
 
+
     &-menu {
         @include flex-center;
     }
 }
+
+.menu {
+    &-items {
+        @include flex-center;
+    }
+
+    &-item {
+        margin-right: 24px;
+    }
+}
+
+.logo {
+    @include flex-center;
+    margin-right: 90px;
+    &-title {
+        margin-left: 16px;
+    }
+}
+
+.search {
+    &-input {
+        min-width: 228px;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 50px;
+        color: $grey;
+        background-color: $dark;
+     }
+}
+
+
+/* HEADER SECTION */
+
+.header {
+    background-color: $black;
+    background-image: url("/images/banner.png");
+    @include bg-position-size;
+    padding-top: 200px;
+    padding-bottom: 200px;
+        
+    &-artist {
+        background-image: url("/images/Morten Harket.png");
+    }
+
+
+}
+
 
 .banner {
     text-align: center;
@@ -113,34 +156,7 @@
 
 }
 
-.menu {
-    &-items {
-        @include flex-center;
-    }
 
-    &-item {
-        margin-right: 24px;
-    }
-}
-
-.logo {
-    @include flex-center;
-    margin-right: 90px;
-    &-title {
-        margin-left: 16px;
-    }
-}
-
-.search {
-    &-input {
-        min-width: 228px;
-        padding: 5px 10px;
-        border: none;
-        border-radius: 50px;
-        color: $grey;
-        background-color: $dark;
-     }
-}
 
 .col {
     &-1 {
@@ -554,12 +570,7 @@
 @media screen and (max-width: 1239px) {
     .header {
         padding-top: 250px;
-
-        &-top {
-            top: -225px;
-        }
     }
-
     .top {
         @include column-start;
         width: calc(100% - 40px);
