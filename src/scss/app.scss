@@ -212,9 +212,9 @@
 }
 
 .pricing {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    display: flex;
+    // grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
     padding: 0;
 
     &-item {
@@ -223,6 +223,7 @@
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         border-radius: 1rem;
+        position: relative;
     }
 
     &-title  {
