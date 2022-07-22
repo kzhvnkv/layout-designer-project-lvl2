@@ -305,10 +305,10 @@ ul {
   margin-bottom: 40px;
   line-height: 1em;
   font-size: 64px;
-  line-height: 1em;
 }
 .pricing-value sup {
   font-size: 32px;
+  line-height: 1em;
   text-transform: uppercase;
 }
 .pricing-link {
