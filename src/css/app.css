@@ -545,6 +545,10 @@ ul {
   background-color: #08020D;
   background-image: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
+.footer-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .footer-line {
   border-bottom: 1px solid #CACACA;
 }
