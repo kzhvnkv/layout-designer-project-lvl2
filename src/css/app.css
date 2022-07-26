@@ -254,7 +254,6 @@ ul {
 /* PRICE SECTION */
 .price {
   background-color: #08020D;
-  padding-top: 100px;
 }
 .price-title {
   text-align: center;
@@ -266,6 +265,9 @@ ul {
   font-size: 16px;
   line-height: 24px;
   margin: 0;
+}
+.price-container {
+  padding-top: 100px;
 }
 
 .bg-free {
