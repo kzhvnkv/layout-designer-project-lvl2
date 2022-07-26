@@ -590,6 +590,7 @@ ul {
 .footer-address {
   margin-top: 0;
   margin-bottom: 0;
+  color: #E0E0E0;
 }
 
 @media screen and (max-width: 1239px) {
