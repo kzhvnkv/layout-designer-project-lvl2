@@ -579,8 +579,9 @@ ul {
 .footer-col-items {
   line-height: 1.5;
 }
-.footer-social-link {
-  margin-right: 24px;
+.footer-social {
+  display: flex;
+  column-gap: 24px;
 }
 .footer-link {
   line-height: 1.5;

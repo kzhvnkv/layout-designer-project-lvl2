@@ -593,9 +593,12 @@
     }
 
     &-social {
-        &-link {
-            margin-right: 24px;
-        }
+        display: flex;
+        column-gap: 24px;
+        // &-link {
+        //     margin-right: 24px;
+        //     white-space: nowrap;
+        // }
     }
 
     &-link {
