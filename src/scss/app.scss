@@ -558,8 +558,8 @@
     }
 
     &-top {
-        padding-top: 72px;
-        padding-bottom: 62px;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         position: relative;
@@ -585,7 +585,6 @@
             line-height: 27px;
             font-weight: bold;
             text-transform: uppercase;
-            margin-top: 0;
         }
 
         &-items {
