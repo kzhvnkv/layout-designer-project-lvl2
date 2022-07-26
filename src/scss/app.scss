@@ -669,7 +669,7 @@
 
     .news-item {
         flex-direction: column;
-        margin-bottom: 50px;
+        // margin-bottom: 50px;
 
         &-reverse {
             flex-direction: column;
@@ -688,6 +688,10 @@
         &-image {
             margin-bottom: 50px;
             width: 374px;
+        }
+
+        &:first-child {
+            margin-bottom: 64px;
         }
     }
 

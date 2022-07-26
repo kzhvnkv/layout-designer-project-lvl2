@@ -634,7 +634,6 @@ ul {
   }
   .news-item {
     flex-direction: column;
-    margin-bottom: 50px;
   }
   .news-item-reverse {
     flex-direction: column;
@@ -650,6 +649,9 @@ ul {
   .news-item-image {
     margin-bottom: 50px;
     width: 374px;
+  }
+  .news-item:first-child {
+    margin-bottom: 64px;
   }
   .app-content {
     flex-direction: column-reverse;
