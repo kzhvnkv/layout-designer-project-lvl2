@@ -596,6 +596,11 @@
     &-link {
         line-height: 1.5;
     }
+
+    &-address {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 1239px) {

@@ -581,6 +581,10 @@ ul {
 .footer-link {
   line-height: 1.5;
 }
+.footer-address {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 @media screen and (max-width: 1239px) {
   .top {
