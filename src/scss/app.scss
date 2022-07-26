@@ -551,19 +551,14 @@
     &-container {
         padding-left: 20px;
         padding-right: 20px;
-        padding-top: 3rem;
-
-        &-bottom {
-            padding-top: 2rem;
-
-        }
-        }
+    }
 
     &-line {
-        border-bottom: 2px solid $grey;
+        border-bottom: 1px solid $grey;
     }
 
     &-top {
+        padding-top: 3rem;
         padding-bottom: 3rem;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -572,7 +567,7 @@
     }
 
     &-bottom {
-        
+        padding-top: 2rem;
         padding-bottom: 2rem;
 
         &-items {
