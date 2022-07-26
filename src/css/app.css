@@ -582,7 +582,7 @@ ul {
 .footer-social {
   display: flex;
   column-gap: 24px;
-  align-items: center;
+  align-items: baseline;
 }
 .footer-link {
   line-height: 1.5;
