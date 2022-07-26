@@ -554,6 +554,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   position: relative;
+  grid-gap: 40px;
 }
 .footer-bottom {
   padding-top: 2rem;
