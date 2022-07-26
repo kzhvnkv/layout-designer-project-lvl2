@@ -341,6 +341,11 @@ ul {
   margin-top: 0;
   margin-bottom: 48px;
 }
+.news-container {
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 .news-item {
   display: flex;
