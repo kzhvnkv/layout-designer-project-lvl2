@@ -386,6 +386,12 @@ ul {
   margin-right: 16px;
   text-transform: uppercase;
   color: #F89202;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.news-item-date {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .news-item:last-child {
   margin-bottom: 0;

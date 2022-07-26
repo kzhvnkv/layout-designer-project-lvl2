@@ -338,6 +338,13 @@
         margin-right: 16px;
         text-transform: uppercase;
         color: $orange;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    &-date {
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     &:last-child {
