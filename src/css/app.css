@@ -647,6 +647,10 @@ ul {
     font-weight: 400;
     margin-bottom: 16px;
   }
+  .news-item-image {
+    margin-bottom: 50px;
+    width: 374px;
+  }
   .app-content {
     flex-direction: column-reverse;
   }
