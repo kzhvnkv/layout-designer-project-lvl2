@@ -400,9 +400,13 @@ ul {
 /*APP SECTION*/
 .app {
   background-color: #08020D;
-  padding-top: 100px;
   padding-bottom: 100px;
   line-height: 1.5;
+}
+.app-container {
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .app-title {
   text-align: center;
