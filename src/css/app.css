@@ -578,6 +578,9 @@ ul {
 .footer-social-link {
   margin-right: 24px;
 }
+.footer-link {
+  line-height: 1.5;
+}
 
 @media screen and (max-width: 1239px) {
   .top {
