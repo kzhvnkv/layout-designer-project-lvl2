@@ -558,8 +558,8 @@
     // }
 
     &-top {
-        padding-top: 62px;
-        padding-bottom: 62px;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         position: relative;
@@ -572,8 +572,6 @@
 
         &-items {
             display: flex;
-            // margin-top: 0;
-            // margin-bottom: 0;
         }
 
         &-item {
@@ -587,12 +585,10 @@
             line-height: 27px;
             font-weight: bold;
             text-transform: uppercase;
-            margin-top: 0;
         }
 
         &-items {
             line-height: 1.5;
-            // margin: 0;
         }
     }
 
@@ -607,7 +603,7 @@
     }
 
     &-link {
-        // line-height: 1.5;
+        line-height: 1.5;
     }
 
     &-address {

@@ -554,8 +554,8 @@ hr {
   padding-right: 20px;
 }
 .footer-top {
-  padding-top: 62px;
-  padding-bottom: 62px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   position: relative;
@@ -576,7 +576,6 @@ hr {
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 0;
 }
 .footer-col-items {
   line-height: 1.5;
@@ -585,6 +584,9 @@ hr {
   display: flex;
   column-gap: 24px;
   align-items: baseline;
+}
+.footer-link {
+  line-height: 1.5;
 }
 .footer-address {
   margin-top: 0;
