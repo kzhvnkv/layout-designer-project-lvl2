@@ -577,13 +577,13 @@ hr {
   font-weight: bold;
   text-transform: uppercase;
 }
-.footer-col-items {
-  line-height: 1.5;
-}
 .footer-social {
   display: flex;
   column-gap: 24px;
   align-items: baseline;
+}
+.footer-link {
+  line-height: 1.5;
 }
 .footer-address {
   margin-top: 0;
