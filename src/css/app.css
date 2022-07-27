@@ -111,6 +111,10 @@ ul {
   list-style-type: none;
 }
 
+hr {
+  margin: 0;
+}
+
 @media screen and (max-width: 1239px) {
   h1 {
     font-size: 30px;
@@ -551,19 +555,18 @@ ul {
 }
 .footer-top {
   padding-top: 62px;
-  padding-bottom: 72px;
+  padding-bottom: 62px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   position: relative;
   grid-gap: 40px;
 }
 .footer-bottom {
-  padding-top: 40px;
-  padding-bottom: 49px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .footer-bottom-items {
   display: flex;
-  margin: 0;
 }
 .footer-bottom-item {
   margin-right: 16px;
@@ -577,15 +580,11 @@ ul {
 }
 .footer-col-items {
   line-height: 1.5;
-  margin: 0;
 }
 .footer-social {
   display: flex;
   column-gap: 24px;
   align-items: baseline;
-}
-.footer-link {
-  line-height: 1.5;
 }
 .footer-address {
   margin-top: 0;

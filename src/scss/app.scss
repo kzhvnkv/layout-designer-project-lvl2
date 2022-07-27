@@ -559,7 +559,7 @@
 
     &-top {
         padding-top: 62px;
-        padding-bottom: 72px;
+        padding-bottom: 62px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         position: relative;
@@ -567,12 +567,13 @@
     }
 
     &-bottom {
-        padding-top: 40px;
-        padding-bottom: 49px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
 
         &-items {
             display: flex;
-            margin: 0;
+            // margin-top: 0;
+            // margin-bottom: 0;
         }
 
         &-item {
@@ -591,7 +592,7 @@
 
         &-items {
             line-height: 1.5;
-            margin: 0;
+            // margin: 0;
         }
     }
 
@@ -606,7 +607,7 @@
     }
 
     &-link {
-        line-height: 1.5;
+        // line-height: 1.5;
     }
 
     &-address {
