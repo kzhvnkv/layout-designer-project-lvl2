@@ -111,10 +111,6 @@ ul {
   list-style-type: none;
 }
 
-hr {
-  margin: 0;
-}
-
 @media screen and (max-width: 1239px) {
   h1 {
     font-size: 30px;
@@ -567,6 +563,7 @@ hr {
 }
 .footer-bottom-items {
   display: flex;
+  margin: 0;
 }
 .footer-bottom-item {
   margin-right: 16px;
