@@ -549,9 +549,6 @@ ul {
   padding-left: 20px;
   padding-right: 20px;
 }
-.footer-line {
-  border-bottom: 1px solid #CACACA;
-}
 .footer-top {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -578,6 +575,7 @@ ul {
 }
 .footer-col-items {
   line-height: 1.5;
+  margin: 0;
 }
 .footer-social {
   display: flex;

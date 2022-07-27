@@ -553,9 +553,9 @@
         padding-right: 20px;
     }
 
-    &-line {
-        border-bottom: 1px solid $grey;
-    }
+    // &-line {
+    //     border-bottom: 1px solid $grey;
+    // }
 
     &-top {
         padding-top: 3rem;
@@ -589,6 +589,7 @@
 
         &-items {
             line-height: 1.5;
+            margin: 0;
         }
     }
 
