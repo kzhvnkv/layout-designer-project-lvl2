@@ -556,6 +556,7 @@
 
         &-items {
             display: flex;
+            margin-bottom: 1rem;
         }
 
         &-item {
@@ -571,9 +572,10 @@
             text-transform: uppercase;
         }
 
-        // &-items {
+        &-items {
+            margin-bottom: 1rem;
         //     line-height: 1.5;
-        // }
+        }
     }
 
     &-social {
