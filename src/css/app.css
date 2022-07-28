@@ -680,6 +680,7 @@ ul {
     display: flex;
     flex-direction: column;
     position: relative;
+    grid-gap: 0;
   }
   .footer-bottom-items {
     flex-direction: column;
