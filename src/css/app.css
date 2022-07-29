@@ -690,6 +690,13 @@ ul {
     margin-bottom: 16px;
     line-height: 1.5;
   }
+  .footer-social {
+    margin-bottom: 1rem;
+  }
+  .footer-phone {
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
   .tracks {
     background-color: #08020D;
     padding-top: 100px;
