@@ -690,6 +690,10 @@ ul {
     margin-bottom: 16px;
     line-height: 1.5;
   }
+  .footer-bottom-link {
+    display: block;
+    height: 100%;
+  }
   .footer-social {
     margin-bottom: 1rem;
   }
