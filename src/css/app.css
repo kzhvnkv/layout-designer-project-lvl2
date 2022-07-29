@@ -563,10 +563,11 @@ ul {
 }
 .footer-bottom-items {
   display: flex;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 .footer-bottom-item {
   margin-right: 16px;
+  margin-bottom: 1rem;
 }
 .footer-col-title {
   font-size: 18px;
