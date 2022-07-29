@@ -563,7 +563,7 @@ ul {
 }
 .footer-bottom-items {
   display: flex;
-  margin-bottom: 0;
+  margin: 0;
 }
 .footer-bottom-item {
   margin-right: 16px;
